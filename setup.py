@@ -6,7 +6,6 @@
 # LICENSE file in the root directory of this source tree.
 
 from setuptools import setup, find_packages
-import sys
 
 with open('README.md', encoding='utf8') as f:
     readme = f.read()
@@ -18,7 +17,7 @@ with open('requirements.txt', encoding='utf8') as f:
     reqs = f.read()
 
 setup(
-    name='drqa',
+    name='drqa_ext',
     version='0.1.0',
     description='Reading Wikipedia to Answer Open-Domain Questions',
     long_description=readme,
